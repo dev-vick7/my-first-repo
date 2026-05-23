@@ -28,30 +28,3 @@ int main()
 
     return 0;
 }
-
-
-
-// REVERSING AN ARRAY :
-
-#include<iostream>
-using namespace std;
-void reverse(int arr[5])
-{
-    cout<<"Reverse Array = ";
-    for(int i=4;i>=0;i--)
-    {
-        cout<<arr[i]<<" ";
-    }
-}
-int main()
-{
-    int arr[5];
-    cout<<"Enter 5 array elements = "<<endl;
-    for(int i=0;i<5;i++)
-    {
-        cin>>arr[i];
-    }
-    reverse(arr);
-    return 0;
-}
-    
